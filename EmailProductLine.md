@@ -37,7 +37,7 @@ This feature model has five optional features. The feature encrypt implies keys.
 \
 [Encrypt Feature ESG MXE File]()
 ## Sign Feature ESG (f-ESG)
-![sign]()
+![sign](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailModelImages/sign.png)
 \
 [Sign Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailModelImages/sign.png)
 
