@@ -1,7 +1,8 @@
 # Email Product Line 
 
-Email product line has six features and a core feature. The core of the product line represents the common behavior which exists in all products that belong to bank account product line. The core behavior is modelled using core ESG (c-ESG).An optional behavior is modelled using a feature ESG (f-ESG). A featured ESG (FESG) is an extended ESG that is composed of a core ESG (c-ESG) and a set of feature ESGs (f-ESGs). A featured ESG is used in test sequence composition approach which composes the sequences of core and feature ESGs and generates a product's test sequences.
+Email product line has six features and a core feature. 
 
+Remember that the core of the product line represents the common behavior which exists in all products that belong to Email Product Line. The core behavior is modelled using core ESG (c-ESG).An optional behavior is modelled using a feature ESG (f-ESG). 
 
 ## Feature Model
 
