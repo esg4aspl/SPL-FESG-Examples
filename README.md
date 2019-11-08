@@ -6,8 +6,8 @@ A Featured ESG is used in test sequence composition approach which composes the 
 
 To examine the examples and download the ESG files you can click the links below. The downloaded ESG models could be run on [Test Suite Designer](http://download.ivknet.de/) tool.
 
-[Bank Account Product Line](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccountProductLine.md)
-[Email Product Line](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/EmailProductLine.md)
-[Elevator Product Line](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/ElevatorProductLine.md)
+[Bank Account Product Line](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccountProductLine.md) \
+[Email Product Line](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/EmailProductLine.md) \
+[Elevator Product Line](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/ElevatorProductLine.md) 
 
 
