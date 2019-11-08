@@ -2,7 +2,7 @@
 
 The models of bank account product line are built from the users' perspective. The Event Sequence graphs' events are selected from user events. Bank account product line has nine features and a core feature. 
 
-Remember that the core of the product line represents the common behavior which exists in all products that belong to bank account product line. The core behavior is modelled using core ESG (c-ESG).An optional behavior is modelled using a feature ESG (f-ESG).
+Remember that the core of the product line represents the common behavior which exists in all products that belong to Bank Account Product Line. The core behavior is modelled using core ESG (c-ESG).An optional behavior is modelled using a feature ESG (f-ESG).
 
 ## Feature Model
 
