@@ -9,6 +9,9 @@ Remember that the core of the product line represents the common behavior which 
 ![Feature Model](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailModelImages/EmailPL_FeatureModel.png)\
 This feature model has five optional features. The feature encrypt implies keys. This means that a product configuration which has the implying feature i.e. encrypt must have the feature keys. Different product configurations could be obtained by combining these features. 
 
+## Product Table
+![Product Table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailModelImages/Email_ConfigurationMap.png)
+
 ## Core ESG (c-ESG)
  ![core](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailModelImages/core.png)
  The core ESG of the elevator product line represents core features, which exist in all product configurations. For this product line the core features are composing a new eamil, sending an email and receiving an email.\
