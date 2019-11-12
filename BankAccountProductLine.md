@@ -10,6 +10,9 @@ Remember that the core of the product line represents the common behavior which 
 
 This feature model has nine optional features. The feature cancel withdraw implies withdraw; interest estimation implies interest and overdraft implies daily limit. This means that a product configuration which has one of the implying features i.e. cancel withdraw, interest estimation, overdraft must have the corresponding implied feature. Different product configurations could be obtained by combining these features. 
 
+## Product Table
+![Product Table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountModelImages/BankAccount_ConfigurationMap.png)
+
 ## Core ESG (c-ESG)
  ![core](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountModelImages/core.png)
  The core ESG of the bank account product line represents core features, which exist in all product configurations. For this product line the core features are putting money into an account and getting the current balance of the account.\
