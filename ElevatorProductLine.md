@@ -8,6 +8,9 @@ Remember that the core of the product line represents the common behavior which 
 ![Feature Model](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Elevator/ElevatorModelImages/ElevatorPL_FeatureModel.png)\
 This feature model has three optional features. The features overloaded and executive floor imply weight. This means that a product configuration which has one of the implying features i.e. overloaded and executive floor must have the feature weight. Different product configurations could be obtained by combining these features. 
 
+## Product Table
+![Product Table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Elevator/ElevatorModelImages/Elevator_ConfigurationMap.png)
+
 ## Core ESG (c-ESG)
  ![core](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Elevator/ElevatorModelImages/core.png)
  The core ESG of the elevator product line represents core features, which exist in all product configurations. For this product line the core features are calling the elevator, waiting leaving people, entering the elevator, pressing the target floor's button and leaving the elevator.\
