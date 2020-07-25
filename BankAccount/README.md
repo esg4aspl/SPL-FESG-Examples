@@ -14,7 +14,7 @@ The product matrix demonstrates the product configurations.
 
 ## Core ESG (c-ESG)
  ![core](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/core.PNG) \
- The core ESG of the bank account product line represents core features, which exist in all product configurations. For this product line the core features are putting money into an account and getting the current balance of the account.\
+ The core ESG of the bank account product line represents core features, which exist in all product configurations. For this product line the core feature is  getting the current balance of the account.\
  [Core ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/core.zip)
  
  ## Deposit Feature ESG (f-ESG)
