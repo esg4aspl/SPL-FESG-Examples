@@ -148,7 +148,7 @@ Interest Product has interest feature additional to the mandatory features. The 
   # Bank Account Product Line Experiments and Results
 The Bank Account Product Line has forty two(42) product configurations and ninty seven(97) one-increment testing scenarios in total. In our study, we select thirty of the testing scenarios randomly. Below the table of the selected scenarios is given. 
 
-##Testing Scenarios
+## Testing Scenarios
 | Scenario ID | Product Under Consideration ID | Existing Product ID | Existing Product Features                                                                  | New Feature        |
 | ----------- | ------------------------------ | ------------------- | ------------------------------------------------------------------------------------------ | ------------------ |
 | 2           | 6                              | 0                   | deposit, withdraw                                                                          | cancelWithdraw     |
@@ -182,7 +182,7 @@ The Bank Account Product Line has forty two(42) product configurations and ninty
 | 55          | 23                             | 17                  | deposit, withdraw, cancelDeposit, interest, cancelWithdraw, dailyLimit, interestEstimation | overdraft          |
 | 89          | 41                             | 35                  | deposit, withdraw, credit, interest, cancelWithdraw, dailyLimit, interestEstimation        | cancelDeposit      |
 
-##Data on Product Under Consideration (PUC)
+## Data on Product Under Consideration (PUC)
 | Product Under Consideration ID | k = 1 |  k = 2 | k = 3 | k = 4 |
 | ------------------------------ | ----- | ------ | ----- | ----- |
 | 6                              | 8     | 9      | 11    | 14    |
