@@ -149,7 +149,7 @@ Interest Product has interest feature additional to the mandatory features. The 
 The Bank Account Product Line has forty two(42) product configurations and ninty seven(97) one-increment testing scenarios in total. In our study, we select thirty of the testing scenarios randomly. Below the table of the selected scenarios is given. 
 
 ## Testing Scenarios
-| Scenario ID | Product Under Consideration ID | Existing Product ID | Existing Product Features                                                                  | New Feature        |
+| Scenario ID | Product Under Consideration ID | Existing Product ID | Existing Product Features                                                                  | Increment        |
 | ----------- | ------------------------------ | ------------------- | ------------------------------------------------------------------------------------------ | ------------------ |
 | 2           | 6                              | 0                   | deposit, withdraw                                                                          | cancelWithdraw     |
 | 3           | 24                             | 0                   | deposit, withdraw                                                                          | credit             |
@@ -183,38 +183,38 @@ The Bank Account Product Line has forty two(42) product configurations and ninty
 | 89          | 41                             | 35                  | deposit, withdraw, credit, interest, cancelWithdraw, dailyLimit, interestEstimation        | cancelDeposit      |
 
 ## Data on Product Under Consideration (PUC)
-| Product Under Consideration ID | k = 1 |  k = 2 | k = 3 | k = 4 |
-| ------------------------------ | ----- | ------ | ----- | ----- |
-| 6                              | 8     | 9      | 11    | 14    |
-| 24                             | 10    | 10     | 10    | 12    |
-| 4                              | 11    | 11     | 11    | 14    |
-| 25                             | 13    | 12     | 10    | 12    |
-| 7                              | 11    | 11     | 11    | 14    |
-| 30                             | 11    | 11     | 11    | 14    |
-| 2                              | 12    | 12     | 12    | 13    |
-| 9                              | 10    | 13     | 17    | 23    |
-| 28                             | 14    | 13     | 11    | 14    |
-| 13                             | 12    | 12     | 12    | 16    |
-| 15                             | 11    | 14     | 18    | 25    |
-| 26                             | 15    | 14     | 12    | 13    |
-| 36                             | 12    | 12     | 12    | 16    |
-| 8                              | 13    | 13     | 13    | 15    |
-| 33                             | 13    | 15     | 17    | 23    |
-| 14                             | 14    | 14     | 14    | 17    |
-| 21                             | 13    | 17     | 21    | 29    |
-| 39                             | 14    | 16     | 18    | 25    |
-| 32                             | 16    | 15     | 13    | 15    |
-| 34                             | 16    | 17     | 17    | 23    |
-| 16                             | 14    | 16     | 18    | 25    |
-| 19                             | 15    | 18     | 20    | 27    |
-| 40                             | 17    | 18     | 18    | 25    |
-| 22                             | 16    | 19     | 21    | 29    |
-| 38                             | 17    | 16     | 14    | 17    |
-| 17                             | 16    | 18     | 20    | 26    |
-| 35                             | 18    | 19     | 19    | 24    |
-| 20                             | 17    | 20     | 22    | 28    |
-| 23                             | 18    | 21     | 23    | 30    |
-| 41                             | 19    | 20     | 20    | 26    |
+| Scenario ID | PUC ID | k = 1 |  k = 2 | k = 3 | k = 4 |
+| ----------- | ------------------------------ | ----- | ------ | ----- | ----- |
+| 2           | 6                              | 8     | 9      | 11    | 14    |
+| 3           | 24                             | 10    | 10     | 10    | 12    |
+| 4           | 2                              | 12    | 12     | 12    | 13    |
+| 5           | 4                              | 11    | 11     | 11    | 14    |
+| 17          | 14                             | 14    | 14     | 14    | 17    |
+| 19          | 7                              | 11    | 11     | 11    | 14    |
+| 20          | 9                              | 10    | 13     | 17    | 23    |
+| 23          | 8                              | 13    | 13     | 13    | 15    |
+| 31          | 15                             | 11    | 14     | 18    | 25    |
+| 36          | 19                             | 15    | 18     | 20    | 27    |
+| 39          | 20                             | 17    | 20     | 22    | 28    |
+| 41          | 13                             | 12    | 12     | 12    | 16    |
+| 43          | 36                             | 12    | 12     | 12    | 16    |
+| 49          | 16                             | 14    | 16     | 18    | 25    |
+| 50          | 21                             | 13    | 17     | 21    | 29    |
+| 52          | 17                             | 16    | 18     | 20    | 26    |
+| 54          | 40                             | 17    | 18     | 18    | 25    |
+| 55          | 23                             | 18    | 21     | 23    | 30    |
+| 62          | 22                             | 16    | 19     | 21    | 29    |
+| 64          | 25                             | 13    | 12     | 10    | 12    |
+| 66          | 30                             | 11    | 11     | 11    | 14    |
+| 67          | 26                             | 15    | 14     | 12    | 13    |
+| 68          | 28                             | 14    | 13     | 11    | 14    |
+| 71          | 32                             | 16    | 15     | 13    | 15    |
+| 76          | 38                             | 17    | 16     | 14    | 17    |
+| 78          | 33                             | 13    | 15     | 17    | 23    |
+| 83          | 35                             | 18    | 19     | 19    | 24    |
+| 85          | 34                             | 16    | 17     | 17    | 23    |
+| 86          | 39                             | 14    | 16     | 18    | 25    |
+| 89          | 41                             | 19    | 20     | 20    | 26    |
 
 ## Data on Number of Faults
 | Scenario ID | PUC ID | m=2 | m=3 | m=4 | m=5 | Number of Seeded Faults |
