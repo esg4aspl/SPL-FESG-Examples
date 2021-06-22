@@ -13,39 +13,39 @@ This feature model has two mandatory and seven optional features. The feature _i
 The full product matrix demonstrates the product configurations of the Bank Account Product Line feature model. There are fourty two product configurations.
 
 ## Core ESG (c-ESG)
- ![core](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/core.PNG) \
+ ![core](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/core.PNG) \
  The core ESG of the bank account product line represents core features, which exist in all product configurations. For this product line the core feature is  getting the current balance of the account.\
- [Core ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/core.zip)
+ [Core ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/core.zip)
  
  ## Deposit Feature ESG (f-ESG)
- ![deposit](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/deposit.PNG) \
+ ![deposit](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/deposit.PNG) \
  Deposit f-ESG represents the deposit operation i.e. putting money to the account operation.\
- [Deposit Feature ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/deposit.zip)
+ [Deposit Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/deposit.zip)
  
  ## Cancel Deposit Feature ESG (f-ESG)
- ![cancelDeposit](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/cancelDeposit.PNG) \
+ ![cancelDeposit](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/cancelDeposit.PNG) \
 Cancel deposit f-ESG represents cancelling the deposit.\
- [Cancel Deposit Feature ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/cancelDeposit.zip)
+ [Cancel Deposit Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/cancelDeposit.zip)
  
  ## Withdraw Feature ESG (f-ESG)
- ![withdraw](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/withdraw.PNG) \
+ ![withdraw](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/withdraw.PNG) \
  Withdraw f-ESG brings bank account users the ability to take money from the account.\
- [Withdraw Feature ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/withdraw.zip)
+ [Withdraw Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/withdraw.zip)
  
  ## Cancel Withdraw Feature ESG (f-ESG)
- ![cancelWithdraw](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/cancelWithdraw.PNG) \
+ ![cancelWithdraw](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/cancelWithdraw.PNG) \
 Cancel withdraw f-ESG represents cancelling the withdraw operation. This feature cannot exist in product configurations without withdraw feature.\
- [Cancel Withdraw Feature ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/cancelWithdraw.zip)
+ [Cancel Withdraw Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/cancelWithdraw.zip)
  
  ## Daily Limit Feature ESG (f-ESG)
- ![dailyLimit](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/dailyLimit.PNG) \
+ ![dailyLimit](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/dailyLimit.PNG) \
   Daily limit feature helps bank account users to limit the amount of money that can be taken from the account in a day.\
-[Daily Limit Feature ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/dailyLimit.zip)
+[Daily Limit Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/dailyLimit.zip)
   
   ## Overdraft Feature ESG (f-ESG)
-  ![overdraft](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/overdraft.PNG) \
+  ![overdraft](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/overdraft.PNG) \
   Overdraft feature helps bank account users to limit the amount of withdrawal money that excesses the account balance. This feature cannot exist in product configurations without daily limit feature.\
-  [Overdraft Feature ESG MXE File] .\(https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/overdraft.png)
+  [Overdraft Feature ESG MXE File] .\(https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/overdraft.zip)
   
   ## Credit Feature ESG (f-ESG)
   ![credit](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/credit.PNG) \
