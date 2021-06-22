@@ -9,7 +9,7 @@ This feature model has two mandatory and seven optional features. The feature _i
 ## Full Product Matrix
 ![Full Product Matrix](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/BankAccountPL_fullProductMatrix.png)
 
-The full product matrix demonstrates the product configurations of the Bank Account Product Line feature model. There are fourty two product configurations. In the table below, the product id and the belonging features are given. 
+The full product matrix demonstrates the product configurations of the Bank Account Product Line feature model. There are fourty two product configurations. In the table below, the product id and the belonging features are given. Since, each possible product does not have a unique official name, we assign IDs to products to name them uniquely. 
 
 | Product ID | Features                                                                                              |
 | ---------- | ----------------------------------------------------------------------------------------------------- |
@@ -146,7 +146,7 @@ Interest Product has interest feature additional to the mandatory features. The 
 [Click to download all ESG MXE Files](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/BankAccountPL_Models.zip)
 
   # Bank Account Product Line Experiments and Results
-The Bank Account Product Line has forty two(42) product configurations and ninty seven(97) one-increment testing scenarios in total. In our study, we select thirty of the testing scenarios randomly. Below the table of the selected scenarios is given. 
+The Bank Account Product Line has forty two(42) product configurations and ninty seven(97) one-increment testing scenarios in total. In our study, we select thirty of the testing scenarios randomly. Below the table of the selected testing scenarios is given. 
 
 ## Testing Scenarios
 | Scenario ID | Product Under Consideration ID | Existing Product ID | Existing Product Features                                                                  | Increment        |
@@ -183,6 +183,8 @@ The Bank Account Product Line has forty two(42) product configurations and ninty
 | 89          | 41                             | 35                  | deposit, withdraw, credit, interest, cancelWithdraw, dailyLimit, interestEstimation        | cancelDeposit      |
 
 ## Data on Product Under Consideration (PUC)
+Exemplary statistics on the numbers of k-sequences where k=1,2,3,4 are given to give a notion of the sizes of the PUCs.
+
 | Scenario ID | PUC ID | k = 1 |  k = 2 | k = 3 | k = 4 |
 | ----------- | ------------------------------ | ----- | ------ | ----- | ----- |
 | 2           | 6                              | 8     | 9      | 11    | 14    |
@@ -217,7 +219,9 @@ The Bank Account Product Line has forty two(42) product configurations and ninty
 | 89          | 41                             | 19    | 20     | 20    | 26    |
 
 ## Data on Number of Faults
-| Scenario ID | PUC ID | m=2 | m=3 | m=4 | m=5 | Number of Seeded Faults |
+The table below contains statistics on the total number of possible faults and the number of faults seeded for various m values for each PUC. The entire number of possible faults for each PUC for a given value of m is directly proportional to the number of m-sequences in the PUC's ESG, and the total number of seeded faults is 20% of the summation of number of possible faults for m=2,3,4,5.
+
+| Scenario ID | PUC ID | m=2 | m=3 | m=4 | m=5 | Total Number of Seeded Faults |
 | ----------- | ------ | --- | --- | --- | --- | ----------------------- |
 | 2           | 6      | 17  | 20  | 25  | 30  | 18                      |
 | 3           | 24     | 20  | 20  | 22  | 26  | 18                      |
@@ -251,6 +255,7 @@ The Bank Account Product Line has forty two(42) product configurations and ninty
 | 89          | 41     | 39  | 40  | 46  | 58  | 37                      |
 
 ## Data on Test Generation and Execution
+Table below presents data on fault coverage and performance statistics on test set generation and test execution processes.
 
 | Scenario ID | PUC ID | Test Set | Existing Product Number of Sequences | Existing Product Number of Events | PUC Number of Sequences | PUC Number of Events | Number of Common Sequences | Number of Common Events | Generation Time | Faults Seeded | Events Executed | Faults Revealed |
 | ----------- | ------ | -------- | ------------------------------------ | --------------------------------- | ----------------------- | -------------------- | -------------------------- | ----------------------- | --------------- | ------------- | --------------- | --------------- |
