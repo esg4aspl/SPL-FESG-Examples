@@ -40,32 +40,32 @@ There are twenty four product configurations in Email Product Line. In the table
 | 23         | addressbook, autoresponder, encrypt, sign |
 
 ## Core ESG (c-ESG)
- ![core](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/core.PNG)
+ ![core](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/core.PNG)\
  The core ESG of the elevator product line represents core features, which exist in all product configurations. For this product line the core features are composing a new eamil, sending an email and receiving an email. Note that, the product that has the ID 0, has only core feature. \
  [Core ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_Models/core.zip)
 
 ## Addressbook Feature ESG (f-ESG)
-![addressbook](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/addressbook.PNG)
+![addressbook](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/addressbook.PNG)\
 Addressbook feature helps a user to create an addressbook for a contact who has more than one email address and to send an email to all of the contact's email addresses.\
 [Addressbook Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_Models/addressbook.zip)
 
 ## Autoresponder Feature ESG (f-ESG)
-![autoresponder](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/autoresponder.PNG)
+![autoresponder](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/autoresponder.PNG)\
 Autoresponder feature helps the user to compose a autoresponse email body and set the date interval of autoresponse.\
 [Autoresponder Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_Models/autoresponder.zip)
 
 ## Forward Feature ESG (f-ESG)
-![forward](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/forward.PNG)
+![forward](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/forward.PNG)\
 Forward activates the email account's forwarding email feature. \
 [Forward Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_Models/forward.zip)
 
 ## Encrypt Feature ESG (f-ESG)
-![encrypt](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/encrypt.PNG)
+![encrypt](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/encrypt.PNG)\
 Encrypt feature helps the user to encrypt the sending email.\
 [Encrypt Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_Models/encrypt.zip)
 
 ## Sign Feature ESG (f-ESG)
-![sign](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/sign.PNG)
+![sign](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/sign.PNG)\
 Sign feature adds sender's signature to the email.\
 [Sign Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_Models/sign.zip)
 [Click to download all ESG MXE Files](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_Models/EmailPL_Models.zip)
