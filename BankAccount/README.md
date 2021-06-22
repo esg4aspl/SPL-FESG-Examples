@@ -48,49 +48,53 @@ Cancel withdraw f-ESG represents cancelling the withdraw operation. This feature
   [Overdraft Feature ESG MXE File] .\(https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/overdraft.zip)
   
   ## Credit Feature ESG (f-ESG)
-  ![credit](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/credit.PNG) \
+  ![credit](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/credit.PNG) \
   Credit feature helps users to take extra money as a debt.\
-  [Credit Feature ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/credit.zip)
+  [Credit Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/credit.zip)
    
   ## Interest Feature ESG (f-ESG) 
-  ![interest](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/interest.PNG) \
+  ![interest](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/interest.PNG) \
   Interest feature helps bank account users to request an interest rate.\
-  [Interest Feature ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/interest.zip)
+  [Interest Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/interest.zip)
   
   ## Interest Estimation Feature ESG (f-ESG)
-  ![interestEstimation](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/interestEstimation.PNG) \
+  ![interestEstimation](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/interestEstimation.PNG) \
   Interest estimation feature helps bank account users to find out total inerest gain for certain days.\
-  [Interest Estimation Feature ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/interestEstimation.zip)
+  [Interest Estimation Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/interestEstimation.zip)
   
-  # Bank Account Products
-## Base Product ESG
-  ![productBase](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/bankAccountProduct_baseProduct.PNG) \
-  Base Product has the deposit and the withdraw mandatory features. The users of this account can deposit money and withdraw money, only.\
-  [Base Product ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/bankAccountProduct_baseProduct.zip)
+  # Bank Account Example Products
+  Below, some example products of Bank Account Product Line are shown in the below partial product matrix. Products in the partial product matrix correspond to some products in the full product matrix. The only difference is that the products in the partial product matrix are named and are given here as examples.
+  
+  ![Partial Product Matrix](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/BankAccountPL_partialProductMatrix.png)
+  
+## Basic Product ESG
+  ![productBasic](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/BankAccountPLProduct_BasicProduct.PNG) \
+  Basic Product has the deposit and the withdraw mandatory features. The users of this account can deposit money and withdraw money, only.\
+  [Basic Product ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/BankAccountPLProduct_BasicProduct.zip)
 
-## Cancellable Product ESG
-  ![productCancellable](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/bankAccountProduct_cancellable.PNG) \
-  Cancellable Product has the cancel deposit and the cancel withdraw features. The users of this account can deposit money, withdraw money and cancel these operations.\
-  [Cancellable Product ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/bankAccountProduct_cancellable.zip)
+## Cancel Withdraw Product ESG
+  ![productCancelWithdraw](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/BankAccountPLProduct_CancelWithdraw.PNG) \
+  Cancel Withdraw Product has the cancel withdraw feature additional to the mandatory features. The users of this account can deposit money, withdraw money and cancel withdraw operation.\
+  [Cancel Withdraw Product ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/BankAccountPLProduct_CancelWithdraw.zip)
   
 ## Credit Product ESG
-![productCredit](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/bankAccountProduct_credit.PNG) \
+![productCredit](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/BankAccountPLProduct_Credit.PNG) \
 The users of this product can withdraw extra money from the account as a debt.\
-[Credit Product ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/bankAccountProduct_credit.zip)
+[Credit Product ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/BankAccountPLProduct_Credit.zip)
 
 ## Daily Limit Product ESG
-![productDailyLimit](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/bankAccountProduct_dailyLimit.PNG) \
-Daily Limit Product has the daily limit, withdraw and cancel withdraw features.The users of this account can witdraw money up to a limit.\
-[Daily Limit Product ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/bankAccountProduct_dailyLimit.zip)
+![productDailyLimit](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/BankAccountPLProduct_DailyLimit.PNG) \
+Daily Limit Product has the daily limit and cancel withdraw features additional to the mandatory features.The users of this account can witdraw money up to a limit.\
+[Daily Limit Product ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/BankAccountPLProduct_DailyLimit.zip)
 
 ## Overdraft Product ESG
-![productOverdraft](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/bankAccountProduct_overdraft.PNG) \
-Overdraft Product has the overdraft, cancel withdraw and daily limit features.The users of this account can take extra money from the account without interest rate.\
-[Overdraft Product ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/bankAccountProduct_overdraft.zip)
+![productOverdraft](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/BankAccountPLProduct_Overdraft.PNG) \
+Overdraft Product has the overdraft, cancel withdraw and daily limit features additional to the mandatory features.The users of this account can take extra money from the account without interest rate.\
+[Overdraft Product ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/BankAccountPLProduct_Overdraft.zip)
 
 ## Interest Product ESG
-![productInterest](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/bankAccountProduct_interest.PNG) \
-Interest Product has interest and interest estimation features. The users of this product can learn the estimated interest for left days, confirm a specific interest rate. \
-[Interest Product ESG MXE File](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/bankAccountProduct_interest.zip)
+![productInterest](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/BankAccountPLProduct_Interest.PNG) \
+Interest Product has interest feature additional to the mandatory features. The users of this product can . \
+[Interest Product ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/BankAccountPLProduct_Interest.zip)
 
-[Click to download all ESG MXE Files](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccountModels/BankAccountAllModels.zip)
+[Click to download all ESG MXE Files](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/BankAccountPL_Models.zip)
