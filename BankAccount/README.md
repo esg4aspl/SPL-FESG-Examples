@@ -1,9 +1,42 @@
 # Bank Account Product Line
 The models of bank account product line are built from the users' perspective. The Event Sequence graphs' events are selected from user events. Bank account product line has nine features and a core feature. The core of the product line represents the common behavior which exists in all products that belong to bank account product line. The core behavior is modelled using core ESG (c-ESG).An optional behavior is modelled using a feature ESG (f-ESG). A featured ESG (FESG) is an extended ESG that is composed of a core ESG (c-ESG) and a set of feature ESGs (f-ESGs). A featured ESG is used in test sequence composition approach which composes the sequences of core and feature ESGs and generates a product's test sequences.
 
+Scenario ID	Existing Product ID	Existing Product	Product Under Consideration ID	Product Under Consideration
+2	0	baseProduct	6	cancelWithdraw
+3	0	baseProduct	24	credit
+5	1	interest	4	cancelDeposit_interest
+64	24	credit	25	credit_interest
+19	6	cancelWithdraw	7	interest_cancelWithdraw
+66	24	credit	30	credit_cancelWithdraw
+4	1	interest	2	interest_interestEstimation
+20	6	cancelWithdraw	9	cancelWithdraw_dailyLimit
+68	25	credit_interest	28	cancelDeposit_credit_interest
+41	12	cancelDeposit_cancelWithdraw	13	cancelDeposit_interest_cancelWithdraw
+31	9	cancelWithdraw_dailyLimit	15	cancelDeposit_cancelWithdraw_dailyLimit
+67	25	credit_interest	26	credit_interest_interestEstimation
+43	12	cancelDeposit_cancelWithdraw	36	cancelDeposit_credit_cancelWithdraw
+23	7	interest_cancelWithdraw	8	interest_cancelWithdraw_interestEstimation
+78	30	credit_cancelWithdraw	33	credit_cancelWithdraw_dailyLimit
+17	5	cancelDeposit_interest_interestEstimation	14	cancelDeposit_interest_cancelWithdraw_interestEstimation
+50	15	cancelDeposit_cancelWithdraw_dailyLimit	21	cancelDeposit_cancelWithdraw_dailyLimit_overdraft
+86	33	credit_cancelWithdraw_dailyLimit	39	cancelDeposit_credit_cancelWithdraw_dailyLimit
+71	26	credit_interest_interestEstimation	32	credit_interest_cancelWithdraw_interestEstimation
+85	33	credit_cancelWithdraw_dailyLimit	34	credit_interest_cancelWithdraw_dailyLimit
+49	15	cancelDeposit_cancelWithdraw_dailyLimit	16	cancelDeposit_interest_cancelWithdraw_dailyLimit
+36	10	interest_cancelWithdraw_dailyLimit	19	interest_cancelWithdraw_dailyLimit_overdraft
+54	16	cancelDeposit_interest_cancelWithdraw_dailyLimit	40	cancelDeposit_credit_interest_cancelWithdraw_dailyLimit
+62	21	cancelDeposit_cancelWithdraw_dailyLimit_overdraft	22	cancelDeposit_interest_cancelWithdraw_dailyLimit_overdraft
+76	29	cancelDeposit_credit_interest_interestEstimation	38	cancelDeposit_credit_interest_cancelWithdraw_interestEstimation
+52	16	cancelDeposit_interest_cancelWithdraw_dailyLimit	17	cancelDeposit_interest_cancelWithdraw_dailyLimit_interestEstimation
+83	32	credit_interest_cancelWithdraw_interestEstimation	35	credit_interest_cancelWithdraw_dailyLimit_interestEstimation
+39	11	interest_cancelWithdraw_dailyLimit_interestEstimation	20	interest_cancelWithdraw_dailyLimit_interestEstimation_overdraft
+55	17	cancelDeposit_interest_cancelWithdraw_dailyLimit_interestEstimation	23	cancelDeposit_interest_cancelWithdraw_dailyLimit_interestEstimation_overdraft
+89	35	credit_interest_cancelWithdraw_dailyLimit_interestEstimation	41	cancelDeposit_credit_interest_cancelWithdraw_dailyLimit_interestEstimation
+
+
 ## Feature Model
 
-![Feature Model](https://github.com/dilekozturk93/BankAccountProductLine/blob/master/BankAccount_ModelImages/BankAccount_FeatureModel.png)
+![Feature Model](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/BankAccountPL_featureModel.PNG)
 
 This feature model has two mandatory and seven optional features. The feature interest estimation implies interest; daily limit implies withdraw and cancel withdraw and, overdraft implies cancel withdraw and daily limit. This means that a product configuration which has one of the implying features i.e. cancel withdraw, interest estimation etc. must have the corresponding implied feature. Different product configurations could be obtained by combining these features. 
 
