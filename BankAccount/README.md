@@ -6,7 +6,7 @@ The models of bank account product line are built from the users' perspective. T
 
 This feature model has two mandatory and seven optional features. The feature _interest estimation_ implies _interest_; _daily limit_ implies _withdraw_ and _cancel withdraw_ and, _overdraft_ implies _cancel withdraw_ and _daily limit_. This means that a product configuration which has one of the implying features i.e. cancel withdraw, interest estimation etc. must have the corresponding implied feature. Different product configurations could be obtained by combining these features. 
 
-## Full Product Matrix
+## Bank Account Products
 ![Full Product Matrix](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/BankAccountPL_fullProductMatrix.png)
 
 The full product matrix demonstrates the product configurations of the Bank Account Product Line feature model. There are fourty two product configurations. In the table below, the product id and the belonging features are given. Since, each possible product does not have a unique official name, we assign IDs to products to name them uniquely. 
