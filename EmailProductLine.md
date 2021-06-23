@@ -40,7 +40,7 @@ There are 24 product configurations in Email Product Line. In the table below, t
 # Email Product Line Features
 ## Core ESG (c-ESG)
  ![core](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/core.PNG)\
- The core ESG of the elevator product line represents core features, which exist in all product configurations. For this product line the core feature is composing a new email, sending an email and receiving an email. Note that, the product that has the ID 0, has only core feature since the core feature itself, is capable of generating test sequences.\
+ The core ESG of the Email product line represents core features, which exist in all product configurations. For this product line the core feature is composing a new email, sending an email and receiving an email. Note that, the product that has the ID 0, has only core feature since the core feature itself, is capable of generating test sequences.\
  [Core ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_Models/core.zip)
 
 ## Addressbook Feature ESG (f-ESG)
