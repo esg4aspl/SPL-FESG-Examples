@@ -140,7 +140,7 @@ Overdraft Product has the overdraft, cancel withdraw and daily limit features ad
 
 ## Interest Product ESG
 ![productInterest](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/BankAccountPLProduct_Interest.PNG) \
-Interest Product has interest feature additional to the mandatory features. The users of this product can . \
+Interest Product has interest feature additional to the mandatory features. The users of this product can request an interest rate and confirm it if it is suitable. \
 [Interest Product ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/BankAccountPLProduct_Interest.zip)
 
 [Click to download all ESG MXE Files](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_Models/BankAccountPL_Models.zip)
