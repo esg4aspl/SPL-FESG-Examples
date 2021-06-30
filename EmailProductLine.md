@@ -37,6 +37,8 @@ There are 24 product configurations in Email Product Line. In the table below, t
 | 19         | addressbook, autoresponder, forward, sign |
 | 23         | addressbook, autoresponder, encrypt, sign |
 
+ [Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/Products.pdf)
+
 # Email Product Line Features
 ## Core ESG (c-ESG)
  ![core](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/core.PNG)\
@@ -110,7 +112,9 @@ In this table, the selected testing scenarios are given with their Scenario IDs,
 | 49          | 22                             | 20                  | encrypt, sign                       | autoresponder |
 | 51          | 23                             | 22                  | autoresponder, encrypt, sign        | addressbook   |
 
-## Data on PUC
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/Testing%20Scenarios.pdf)
+
+## Data on PUCs
 The numbers of k-sequences where k=1,2,3,4 are given to give a notion of the sizes of the selected PUCs in the testing scenarios.
 
 | Product Under Consideration ID | k = 1 |  k = 2 | k = 3 | k = 4 |
@@ -134,6 +138,8 @@ The numbers of k-sequences where k=1,2,3,4 are given to give a notion of the siz
 | 21                             | 14    | 22     | 50    | 133   |
 | 22                             | 12    | 20     | 46    | 120   |
 | 23                             | 16    | 24     | 52    | 135   |
+
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/Data%20on%20PUCs.pdf)
 
 ## Data on Number of Faults
 The table below contains the total number of possible faults and the number of faults seeded for various m values for each PUC. The entire number of possible faults for each PUC for a given value of m is directly proportional to the number of m-sequences in the PUC's ESG, and the total number of seeded faults is 20% of the summation of number of possible faults for m=2,3,4,5.
@@ -170,6 +176,8 @@ The table below contains the total number of possible faults and the number of f
 | 48          | 21     | 36  | 72  | 183 | 485 | 776                           | 155                     |
 | 49          | 22     | 32  | 66  | 166 | 434 | 698                           | 140                     |
 | 51          | 23     | 40  | 76  | 187 | 489 | 792                           | 158                     |
+
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/Data%20on%20Number%20of%20Faults.pdf)
 
 ## Data on Test Generation and Execution
 Table below presents data on fault coverage and performance statistics on test set generation and test execution processes.
@@ -357,6 +365,8 @@ Table below presents data on fault coverage and performance statistics on test s
 | 51          | 23     | inc(4)   | 54                                   | 355                               | 80                      | 581                  | 44                                | 289                             | 23.20           | 158           | 1176            | 142             |
 | 51          | 23     | sm(4)    | \-                                   | \-                                | 51                      | 343                  | \-                                | \-                              | 125.08          | 158           | 983             | 135             |
 
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/Data%20on%20TestGeneration%26Execution.pdf)
+
 ## Reuse Rates
 The table below shows reuse rates of test sequences and events in the testing scenarios.
 
@@ -452,3 +462,5 @@ The table below shows reuse rates of test sequences and events in the testing sc
 | 51          | 23     | inc(2)   | 80                                                        | 100                                                                    | 80.85106383                                          | 100                                                               |
 | 51          | 23     | inc(3)   | 51.72413793                                               | 71.42857143                                                            | 46.06060606                                          | 68.46846847                                                       |
 | 51          | 23     | inc(4)   | 55                                                        | 81.48148148                                                            | 49.74182444                                          | 81.4084507                                                        |
+
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/ReuseRates.pdf)
