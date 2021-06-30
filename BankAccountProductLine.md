@@ -155,7 +155,7 @@ The Bank Account Product Line has forty two(42) product configurations and ninty
 ## Testing Scenarios
 In this table, the selected testing scenarios are given with their Scenario IDs, Product Under Consideration(PUC) IDs, Existing Product IDs and Features and Increment. Existing Product refers to the product that we already have the model and the test sequences. In incremental test generation approach, the existing product's test sequences and increment's test sequences are composed so that the test sequences of the PUC is obtained without generating and composing all of its features from scratch.
 
-| Scenario ID | Product Under Consideration ID | Existing Product ID | Existing Product Features                                                                  | Increment        |
+| Scenario ID | Product Under Consideration ID | Existing Product ID | Existing Product Features                                                                  | New Feature        |
 | ----------- | ------------------------------ | ------------------- | ------------------------------------------------------------------------------------------ | ------------------ |
 | 2           | 6                              | 0                   | deposit, withdraw                                                                          | cancelWithdraw     |
 | 3           | 24                             | 0                   | deposit, withdraw                                                                          | credit             |
