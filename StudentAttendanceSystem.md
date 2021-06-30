@@ -42,6 +42,7 @@ There are 2664 product configurations in Student Attendance System Product Line.
 | 1634       | viewClass, SMS, studentAccess, teacherAccess, updateRecord, addNewSchedule, editSchedule, deleteClass, fingerprint                                                                                                    |
 | 1246       | viewClass, viewSchedule, SMS, studentAccess, teacherAccess, updateRecord, addNewSchedule, traceAttendanceActivity, deleteClass, fingerprint                                                                           |
 | 1005       | viewClass, viewSchedule, SMS, teacherAccess, updateRecord, addNewClass, addNewSchedule, barcode                                                                                                                       |
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/StudentAttendanceSystem/Products.pdf)
 
 # Student Attendance System Product Line Features
 ## Core ESG (c-ESG)
@@ -190,7 +191,9 @@ In this table, the selected testing scenarios are given with their Scenario IDs,
 | 5188        | 1246                           | 1194                | viewSchedule, SMS, studentAccess, teacherAccess, updateRecord, addNewSchedule, traceAttendanceActivity, deleteClass, fingerprint                                                                   | viewClass               |
 | 573         | 1005                           | 121                 | viewClass, viewSchedule, SMS, teacherAccess, updateRecord, addNewClass, barcode                                                                                                                    | addNewSchedule          |
 
-## Data on PUC
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/StudentAttendanceSystem/TestingScenarios.pdf)
+
+## Data on PUCs
 The numbers of k-sequences where k=1,2,3,4 are given to give a notion of the sizes of the selected PUCs in the testing scenarios.
 
 | Product Under Consideration ID | k = 1 |  k = 2 | k = 3 | k = 4 |
@@ -225,6 +228,8 @@ The numbers of k-sequences where k=1,2,3,4 are given to give a notion of the siz
 | 1634                           | 29    | 44     | 71    | 119   |
 | 1246                           | 29    | 38     | 56    | 83    |
 | 1005                           | 28    | 41     | 68    | 116   |
+
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/StudentAttendanceSystem/Data%20on%20PUCs.pdf)
 
 ## Data on Number of Faults
 The table below contains the total number of possible faults and the number of faults seeded for various m values for each PUC. The entire number of possible faults for each PUC for a given value of m is directly proportional to the number of m-sequences in the PUC's ESG, and the total number of seeded faults is 20% of the summation of number of possible faults for m=2,3,4,5.
@@ -261,6 +266,8 @@ The table below contains the total number of possible faults and the number of f
 | 9379        | 2655   | 112 | 198 | 367 | 683 | 1360                          | 272                     |
 | 9432        | 2413   | 106 | 192 | 356 | 671 | 1325                          | 265                     |
 | 9436        | 2390   | 97  | 178 | 339 | 653 | 1267                          | 253                     |
+
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/StudentAttendanceSystem/Data%20on%20Number%20of%20Faults.pdf)
 
 ## Data on Test Generation and Execution
 Table below presents data on fault coverage and performance statistics on test set generation and test execution processes.
@@ -448,6 +455,8 @@ Table below presents data on fault coverage and performance statistics on test s
 | 9436        | 2390   | inc(4)   | 78               | 655                   | 79                | 653                    | 68                                | 548                             | 2.39            | 253           | 2219            | 234             |
 | 9436        | 2390   | sm(4)    | \-               | \-                    | 71                | 589                    | \-                                | \-                              | 169.32          | 253           | 2167            | 230             |
 
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/StudentAttendanceSystem/Data%20on%20TestGeneration%26Execution.pdf)
+
 ## Reuse Rates
 The table below shows reuse rates of test sequences and events in the testing scenarios. 
 
@@ -543,3 +552,5 @@ The table below shows reuse rates of test sequences and events in the testing sc
 | 9436        | 2362                | 2390   | inc(2)   | 94.73684211                                               | 100                                                                    | 95.58823529                                          | 100                                                               |
 | 9436        | 2362                | 2390   | inc(3)   | 97.36842105                                               | 100                                                                    | 97.85714286                                          | 100                                                               |
 | 9436        | 2362                | 2390   | inc(4)   | 86.07594937                                               | 87.17948718                                                            | 91.27105666                                          | 90.99236641                                                       |
+
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/StudentAttendanceSystem/ReuseRates.pdf)
