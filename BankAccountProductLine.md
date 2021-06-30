@@ -56,6 +56,8 @@ The full product matrix demonstrates the product configurations of the Bank Acco
 | 23         | deposit, withdraw, cancelDeposit, interest, cancelWithdraw, dailyLimit, interestEstimation, overdraft |
 | 41         | deposit, withdraw, cancelDeposit, credit, interest, cancelWithdraw, dailyLimit, interestEstimation    |
 
+ [Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/Products.pdf)
+
 # Bank Account Product Line Features
 ## Core ESG (c-ESG)
  ![core](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/BankAccountPL_ModelImages/core.PNG) \
@@ -222,6 +224,8 @@ The numbers of k-sequences where k=1,2,3,4 are given to give a notion of the siz
 | 39                             | 14    | 16     | 18    | 25    |
 | 41                             | 19    | 20     | 20    | 26    |
 
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/Testing%20Scenarios.pdf)
+
 ## Data on Number of Faults
 The table below contains the total number of possible faults and the number of faults seeded for various m values for each PUC. The entire number of possible faults for each PUC for a given value of m is directly proportional to the number of m-sequences in the PUC's ESG, and the total number of seeded faults is 20% of the summation of number of possible faults for m=2,3,4,5.
 
@@ -257,6 +261,8 @@ The table below contains the total number of possible faults and the number of f
 | 85          | 34     | 33  | 34  | 40  | 53  | 160                             | 32                      |
 | 86          | 39     | 30  | 34  | 43  | 57  | 164                             | 33                      |
 | 89          | 41     | 39  | 40  | 46  | 58  | 183                             | 37                      |
+
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/Data%20on%20Number%20of%20Faults.pdf)
 
 ## Data on Test Generation and Execution
 Table below presents data on fault coverage and performance statistics on test set generation and test execution processes.
@@ -444,6 +450,8 @@ Table below presents data on fault coverage and performance statistics on test s
 | 89          | 41     | inc(4)   | 22                                   | 101                               | 26                      | 126                  | 19                                | 79                              | 4.02            | 37            | 297             | 35              |
 | 89          | 41     | sm(4)    | \-                                   | \-                                | 17                      | 97                   | \-                                | \-                              | 66.14           | 37            | 275             | 32              |
 
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/Data%20on%20TestGeneration%26Execution.pdf)
+
 ## Reuse Rates
 The table below shows reuse rates of test sequences and events in the testing scenarios.
 
@@ -539,3 +547,5 @@ The table below shows reuse rates of test sequences and events in the testing sc
 | 89          | 35                  | 41     | inc(2)   | 91.66666667                                         | 100                                                              | 95                                            | 100                                                        |
 | 89          | 35                  | 41     | inc(3)   | 89.47368421                                         | 100                                                              | 90                                            | 100                                                        |
 | 89          | 35                  | 41     | inc(4)   | 73.07692308                                         | 86.36363636                                                      | 73.80952381                                   | 92.07920792                                                |
+
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccount/ReuseRates.pdf)
