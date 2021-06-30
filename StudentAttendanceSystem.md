@@ -235,7 +235,7 @@ The numbers of k-sequences where k=1,2,3,4 are given to give a notion of the siz
 ## Data on Number of Faults
 The table below contains the total number of possible faults and the number of faults seeded for various m values for each PUC. The entire number of possible faults for each PUC for a given value of m is directly proportional to the number of m-sequences in the PUC's ESG, and the total number of seeded faults is 20% of the summation of number of possible faults for m=2,3,4,5.
 
-| Scenario ID | PUC ID | m=2 | m=3 | m=4 | m=5 | Total Number of Seeded Faults | Number of Seeded Faults |
+| Scenario ID | PUC ID | m=2 | m=3 | m=4 | m=5 | Total Number of Possible Faults | Number of Seeded Faults |
 | ----------- | ------ | --- | --- | --- | --- | ----------------------------- | ----------------------- |
 | 45          | 123    | 52  | 72  | 110 | 178 | 412                           | 82                      |
 | 573         | 1005   | 69  | 109 | 184 | 323 | 685                           | 137                     |
