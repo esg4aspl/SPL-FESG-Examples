@@ -42,6 +42,7 @@ There are 2664 product configurations in Student Attendance System Product Line.
 | 1634       | viewClass, SMS, studentAccess, teacherAccess, updateRecord, addNewSchedule, editSchedule, deleteClass, fingerprint                                                                                                    |
 | 1246       | viewClass, viewSchedule, SMS, studentAccess, teacherAccess, updateRecord, addNewSchedule, traceAttendanceActivity, deleteClass, fingerprint                                                                           |
 | 1005       | viewClass, viewSchedule, SMS, teacherAccess, updateRecord, addNewClass, addNewSchedule, barcode                                                                                                                       |
+
 [Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/StudentAttendanceSystem/Products.pdf)
 
 # Student Attendance System Product Line Features
