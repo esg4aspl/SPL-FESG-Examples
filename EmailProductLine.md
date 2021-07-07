@@ -144,6 +144,44 @@ The numbers of k-sequences where k=1,2,3,4 are given to give a notion of the siz
 ## Data on Number of Faults
 The table below contains the total number of possible faults and the number of faults seeded for various m values for each PUC. The entire number of possible faults for each PUC for a given value of m is directly proportional to the number of m-sequences in the PUC's ESG, and the total number of seeded faults is 20% of the summation of number of possible faults for m=2,3,4,5.
 
+| Scenario ID | PUC ID | m=2 | m=3 | m=4 | m=5 | Total Number of Seeded Faults | Number of Seeded Faults |
+| ----------- | ------ | --- | --- | --- | --- | ----------------------------- | ----------------------- |
+| 1           | 2      | 24  | 50  | 124 | 319 | 517                           | 103                     |
+| 2           | 4      | 23  | 50  | 123 | 316 | 512                           | 102                     |
+| 3           | 8      | 25  | 55  | 142 | 375 | 597                           | 119                     |
+| 4           | 12     | 23  | 53  | 140 | 370 | 586                           | 117                     |
+| 5           | 3      | 32  | 60  | 145 | 374 | 611                           | 122                     |
+| 6           | 5      | 31  | 60  | 144 | 371 | 606                           | 121                     |
+| 7           | 9      | 33  | 65  | 163 | 430 | 691                           | 138                     |
+| 8           | 13     | 31  | 63  | 161 | 425 | 680                           | 136                     |
+| 9           | 3      | 32  | 60  | 145 | 374 | 611                           | 122                     |
+| 14          | 11     | 37  | 69  | 167 | 434 | 707                           | 141                     |
+| 18          | 16     | 26  | 57  | 143 | 371 | 597                           | 119                     |
+| 19          | 7      | 35  | 64  | 148 | 375 | 622                           | 124                     |
+| 21          | 7      | 35  | 64  | 148 | 375 | 622                           | 124                     |
+| 23          | 19     | 38  | 71  | 168 | 430 | 707                           | 141                     |
+| 26          | 20     | 28  | 62  | 162 | 430 | 682                           | 136                     |
+| 27          | 11     | 37  | 69  | 167 | 434 | 707                           | 141                     |
+| 28          | 21     | 36  | 72  | 183 | 485 | 776                           | 155                     |
+| 30          | 22     | 32  | 66  | 166 | 434 | 698                           | 140                     |
+| 31          | 23     | 40  | 76  | 187 | 489 | 792                           | 158                     |
+| 33          | 14     | 27  | 57  | 144 | 374 | 602                           | 120                     |
+| 34          | 16     | 26  | 57  | 143 | 371 | 597                           | 119                     |
+| 35          | 20     | 28  | 62  | 162 | 430 | 682                           | 136                     |
+| 36          | 15     | 35  | 67  | 165 | 429 | 696                           | 139                     |
+| 39          | 15     | 35  | 67  | 165 | 429 | 696                           | 139                     |
+| 40          | 18     | 30  | 61  | 147 | 375 | 613                           | 123                     |
+| 45          | 18     | 30  | 61  | 147 | 375 | 613                           | 123                     |
+| 47          | 19     | 38  | 71  | 168 | 430 | 707                           | 141                     |
+| 48          | 21     | 36  | 72  | 183 | 485 | 776                           | 155                     |
+| 49          | 22     | 32  | 66  | 166 | 434 | 698                           | 140                     |
+| 51          | 23     | 40  | 76  | 187 | 489 | 792                           | 158                     |
+
+[Click for the PDF version of the table](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/Data%20on%20Number%20of%20Faults.pdf)
+
+# Data on Test Generation and Execution
+Table below presents data on fault coverage and performance statistics on test set generation and test execution processes.
+
 | Scenario ID | PUC ID | Test Set | Existing Product Number of Sequences | Existing Product Number of Events | PUC Number of Sequences | PUC Number of Events | Test Sequences Reused in Test Set | Events Reused in Test Sequences | Generation Time | Faults Seeded | Events Executed | Faults Revealed |
 | ----------- | ------ | -------- | ------------------------------------ | --------------------------------- | ----------------------- | -------------------- | --------------------------------- | ------------------------------- | --------------- | ------------- | --------------- | --------------- |
 | 1           | 2      | inc(2)   | 4                                    | 20                                | 6                       | 25                   | 4                                 | 20                              | 1.50            | 103           | 192             | 47              |
