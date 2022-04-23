@@ -21,6 +21,6 @@ To examine the examples and download the ESG files you can click the links below
 [1,2] Thüm T, Schaefer I, Apel S, Hentschel M. Family-based deductive verification of software product lines. ACM SIGPLAN Notices 2012; 48: 11–20. doi: 10.1145/2480361.2371404. \
 [1,2] Apel S, Speidel H, Wendler P, von Rhein A, Beyer D. Detection of feature interactions using feature-aware verification. In: ASE2011 International Conference on Automated Software Engineering; Lawrence, Kansas, USA; 2011. pp. 372–5. \
 [1,2] Apel S, von Rhein A, Wendler P, Gro¨ßlinger A, Beyer D. Strategies for product-line verification: Case studies and experiments. In: ICSE 2013 International Conference on Software Engineering; San Francisco, CA, USA; 2013. pp.482–91. \
-[3] Elevator Product Line: http://spl2go.cs.ovgu.de/projects/16 (retrieved on 2019, November 11) \
-[4] http://www.splot-research.org/ \
+[3] Elevator Product Line: http://spl2go.cs.ovgu.de/projects/16 (retrieved on 2022, April 23) \
+[4] http://www.splot-research.org/ (retrieved on 2022, April 23)\
 [5] Classen A. Modelling and Model Checking Variability-Intensive Systems. PhD, University of Namur, Belgium, 2011.
