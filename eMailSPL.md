@@ -70,17 +70,3 @@ Encrypt feature helps the user to encrypt the sending email.\
 Sign feature adds sender's signature to the email.\
 [Sign Feature ESG MXE File](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_Models/sign.zip)
 [Click to download all ESG MXE Files](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_Models/EmailPL_Models.zip)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
