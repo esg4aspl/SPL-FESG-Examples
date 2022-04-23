@@ -10,7 +10,7 @@ To examine the examples and download the ESG files you can click the links below
 [eMail SPL](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/EmailProductLine.md) [2] \
 [Elevator SPL](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/ElevatorProductLine.md) [3] \
 [Student Attendance System SPL](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/StudentAttendanceSystemSPL.md) [4] \
-[Soda Vending Machine SPL](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/SodaVendingMachineSPL.md) [5] \
+[Soda Vending Machine SPL](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/SodaVendingMachineSPL.md) [5]
 
 
 ## References
