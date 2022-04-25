@@ -4,7 +4,7 @@ Soda vending machine SPL has 6 features and a core feature. The core of the prod
 ## Feature Model
 ![Feature Model](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/SodaVendingMachine/SodaVendingMachinePL_ModelImages/SodaVendingMachinePL_featureModel.PNG)
 
-This feature model has 2 mandatory and 1 optional features. The abstract feature _ServeBeverage_ is grouping _serveSoda_ and _serveTea_ features with OR relationship similar to _Purchase_ which groups _payEUR_, _payUSD_ and _free_ features. The feature _cancel_ is optional for this SPL. Furthermore, the implication that is written below the feature diagram correspond to require relationship where _cancel_ feature requires _payEUR_ feature or _payUSD_ feature in a product configuration.
+This feature model has 2 mandatory and 1 optional features. The abstract feature _ServeBeverage_ groups _serveSoda_ and _serveTea_ features with OR relationship likewise the _Purchase_ feature which groups _payEUR_, _payUSD_ and _free_ features. The feature _cancel_ is the optional feature of this SPL. Furthermore, there is an implication corresponds to require relationship where _cancel_ feature requires _payEUR_ feature or _payUSD_ feature in a product configuration.
 
 # Soda Vending Machine Product Line Features
 ## Core ESG (c-ESG)
