@@ -4,7 +4,7 @@ Email product line has 5 features and a core feature. The core of the product li
 
 ## Feature Model
 
-![Feature Model](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/EmailPL_featureModel.PNG)\
+![Feature Model](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/Email/EmailPL_ModelImages/EmailPL_FeatureModel.PNG)\
 This feature model has 5 optional features. The features _encrypt_ and _forward_ cannot belong to the same product at the same time. 24 different product configurations could be obtained by combining these features of the feature model.
 
 ## Email Products
